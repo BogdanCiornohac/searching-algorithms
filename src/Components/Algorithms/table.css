@@ -1,0 +1,122 @@
+.square {
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: #088395;
+    border: 4px ridge #05BFDB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    box-shadow: 2px 2px 4px #05BFDB;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.table {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: #00ffcc79;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    outline: none;
+    overflow: visible;
+    padding: 13px 19px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.btn:after {
+    background-clip: padding-box;
+    background-color: #00FFCA;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.btn:main,
+.btn:focus {
+    user-select: auto;
+}
+
+.btn:hover:not(:disabled) {
+    filter: brightness(1.1);
+}
+
+.btn:disabled {
+    cursor: auto;
+}
+
+.btn:active:after {
+    border-width: 0 0 0px;
+}
+
+.btn:active {
+    padding-bottom: 10px;
+}
+
+.input {
+    font-weight: 500;
+    font-size: 14px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 2px solid #e5e5e5;
+    outline: none;
+}
+
+.input:focus {
+    border-bottom: 2px solid #00ffcc79;
+    -webkit-transition: 0.1s;
+    transition: 0.5s;
+}
+
+.mama{
+    background-color: green;
+}
